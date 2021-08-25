@@ -7,7 +7,6 @@ body.margin {color:#000000; background: #FFFFFF; margin-left: 15%; margin-right:
 
 
 /* to constrain the caption to image width */
-
 figure {
    background-color: #fff;
    padding: 5px;
@@ -27,9 +26,7 @@ figcaption {
     background: #fff;
     padding: 0 5px 5px;
 	text-align:center;
-}​
-
-
+}
 
 a:link {color:blue; }
 a:visited {color:purple; }
