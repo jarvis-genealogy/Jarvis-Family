@@ -1,0 +1,282 @@
+
+/*CSS1 style sheet for general pages */
+
+body {color:#000000; background: white none repeat;  margin-left: 5%; margin-right: 5%; }
+body.middle {color:#000000; background: #FFFFFF; margin-left: 10%; margin-right: 8%;}
+body.margin {color:#000000; background: #FFFFFF; margin-left: 15%; margin-right: 15%;}
+
+a:link {color:blue; }
+a:visited {color:purple; }
+a:active {color:red; }
+a:hover {color:red; text-decoration:none; }
+
+H1 {color:#CC0000; background: white; font:bold 160% Arial, Helvetica, sans-serif;  text-align:right; }
+H1.center {text-align:center; }
+H1.comic {color:#CC0000;  background: white; font: bold 145% COMIC SANS MS; text-align:center; }
+H1.bold {color:#CC0000;  background: white; font: bold 200% Arial, Helvetica, sans-serif;  text-align:center; }
+H1.topten {color:#008000; font-size:150%;  font-family:Arial, Helvetica, sans-serif; text-align:left;  }
+
+
+H2 {color:#CC0000;  background: white; font: bold 145% Arial, Helvetica, sans-serif; text-align:center; margin-left:10% }
+h2.contents {color:#990000; font-size:145%;  font-family:Arial, Helvetica, sans-serif; text-align:center;  }
+H2.left {text-align:left; }
+
+H3 {color:#CC0000;  background: white;  font:bold 130% Arial, Helvetica, sans-serif; text-align:center; }
+H3.left {text-align:left; }
+H3.safety {text-align:left; background: #fffff0}
+H3.safetycenter {text-align:center; background: #ffffff}
+
+H4 {color:#990000;  background: white; font:bold 115% Arial, Helvetica, sans-serif;  margin-left:6%; }
+h4.contents {color:#990000; font-size:130%; line-height:145%; font-family:Arial, Helvetica, sans-serif; text-align:center;  }
+h4.left {color:#990000; font-size:120%; line-height:130%; font-family:Arial, Helvetica, sans-serif; text-align:left;  margin-left:0%; }
+
+h5 {color:#008000; font-size:110%; line-height:120%; font-family:Arial, Helvetica, sans-serif; text-align:left;  }
+h5.center {color:#008000; font-size:120%;  font-family:Arial, Helvetica, sans-serif; text-align:center;  }
+caption {color:#990000;  font-size:130%; font-family: Arial, Helvetica, sans-serif;  font-weight:bold; text-align:center; }
+
+TD {color:#000000;  background: white; font-family:Arial, Helvetica, sans-serif;}
+TD.norm {line-height:140%; }
+TD.menu {text-align:right;}
+TD.small {font-size:80%; line-height:150%; text-align:right;}
+TD.left {text-align:left;}
+TD.caption { text-align:center; font-size:80%; }
+TD.center { text-align:center;}
+TD.leftstrip {background:#6A6482; }
+TD.safety {background:#fffff0; }
+
+TH {color:#000000;  background: white;  font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-align:left;}
+TH.center { text-align:center;}
+TH.shop {color:#ffffff; text-align:center;}
+
+HR  {width:30%;  text-align:center;}
+
+P { color:#000000;  background: white;  font-family:Arial, Helvetica, sans-serif; text-align:left; margin-left:10%; margin-right:10%; }
+
+P.caption  { font-size:80%; text-align:center;  margin-left:0%; margin-right:0%; }
+
+P.largemarg { color:#000000;  background: white;  font-family:Arial, Helvetica, sans-serif; text-align:left; margin-left:15%; margin-right:15%; }
+
+P.black { color:#000000;  background: white;  font-family:Arial, Helvetica, sans-serif; text-align:left; margin-left:10%; margin-right:10%; }
+
+P.left { color:#000000;  background: white;  font-family:Arial, Helvetica, sans-serif; text-align:left; margin-left:1%; margin-right:1%; }
+
+P.center  {  text-align:center; margin-left:2%; margin-right:2%; }
+
+P.index {font-size:90%; line-height:150%;  margin-left:2%; }
+
+P.intro { line-height:150%;  font-weight:bold; font-family: "Verdana", "Arial", "Helvetica", sans-serif; }
+
+P.emphasis { line-height:150%;  font-weight:bold; font-family: "Verdana", "Arial", "Helvetica", sans-serif; margin-left:5%; margin-right:5%; }
+
+P.small {font-size:90%; }
+
+P.right {text-align:right; }
+
+P.safety {text-align:right; background:#fffff0; }
+
+P.safetycenter {text-align:center; background:#fffff0; }
+
+P.smallrt {color:#000000; font-size:80%; text-align:right; margin-left:0%; margin-right:0%;}
+
+P.box {background:#FFFFF0; padding:12px; border-style: solid; border-width: thin; border-color: #808080; }
+
+P.mission {background:#FFFFFF; padding:12px; border-style: solid; border-width: thin; border-color: #808080; line-height:150%;  font-weight:bold; font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+P.chat {background:#FFFFFF; padding:12px; border-style: solid; border-width: thin; border-color: #808080; line-height:170%;  font-weight:bold; font-family: Verdana, Arial, Helvetica, sans-serif; text-align:center;}
+
+P.pink {color:#ff33cc; background: white; padding:5px;  border-style: solid; border-width: thin; border-color: #ff33cc;  font-size:80%;  font-weight:bold; font-family: Verdana, Arial, Helvetica, sans-serif;  text-align:left; margin-left:0%; margin-right:0%;}
+
+P.green {color:#006600; background: white;  padding:5px;  border-style: solid; border-width: thin; border-color: #006600;  font-size:80%;  font-weight:bold; font-family: Verdana, Arial, Helvetica, sans-serif;  text-align:left; margin-left:0%; margin-right:0%;}
+
+P.red {color:#000080; background: white;  padding:10px;  border-style: solid; border-width: thin; border-color: #ff0000;    font-family: Verdana, Arial, Helvetica, sans-serif;  text-align:left; margin-left:5%; margin-right:5%;}
+
+P.redcenter {color:#000080; background: white;  padding:10px;  border-style: solid; border-width: thin; border-color: #ff0000; font-weight:bold;   font-family: Verdana, Arial, Helvetica, sans-serif;  text-align:center; margin-left:5%; margin-right:5%;}
+
+P.front {color:#000000; background: white;  padding:10px;  border-style: solid; border-width: thin; border-color: #ff0000;  font-weight:bold;  font-family: Verdana, Arial, Helvetica, sans-serif;  text-align:center; margin-left:0%; margin-right:0%;}
+
+P.notice {color:#000000; background: white;  padding:10px;  border-style: solid; border-width: thin; border-color: #ff0000; font-size:80%;  font-weight:bold;   font-family: Verdana, Arial, Helvetica, sans-serif;  text-align:center; margin-left:0%; margin-right:0%;}
+
+ul { list-style: disc; font-family: Arial, Helvetica, sans-serif; text-align:left; margin-left:10%;  }
+ul.contents { font-size:90%; margin-left:none;  }
+
+OL {list-style: square; color:#000000;  font-family:Arial, Helvetica, sans-serif; text-align:left; margin-left:4%; }
+DL {color:#000000;  font-family:Arial, Helvetica, sans-serif; text-align:left; margin-left:4%;  }
+
+*HOVER POPUP LINKS*/
+
+/*hoverpopups type 1*/
+
+#popup { color: #000; background-color: #c0c0c0; }
+
+#popup a, #popup a:visited {
+	position: relative;
+	display: block;
+	// width: 130px;
+	line-height: 30px;
+	text-align: left;
+	padding: 0 10px;
+	margin: 0;
+	border: 1px solid #666;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#popup a span {display: none;}
+
+#popup a:hover { background-color: #e9e9e2; }
+
+/* the IE correction rule */
+#popup a:hover	{
+	color: #f00;
+	background-color: #e9e9e2;
+	text-indent: 0; /* added the default value */
+}
+
+#popup a:hover span {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	/* width: 320px; */
+	margin: 0px;
+	padding: 10px;
+	color: #335500;
+	font-weight: normal;
+	background: #e5e5e5;
+	text-align: right;
+	border: 1px solid #666;
+}
+
+/*THUMBNAIL HOVERPOPUPS*/
+
+.thumbnail  {
+	position: relative;
+	float: left;
+	padding: 5px;
+	/*z-index: 0;*/
+}
+
+.thumbnail:hover {
+	background-color: #e9e9e2;
+	/*z-index: 50;*/
+	color: #335500;
+	text-decoration: none;
+}
+
+.thumbnail span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #e5e5e5;
+	padding: 5px;
+	/*left: -1000px;*/
+	border: 1px solid #666;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img { /*CSS for enlarged image*/
+	border-width: 0; 
+	/*padding: 2px;*/
+}
+
+.thumbnail:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible;
+	// width: 200px;
+	top: 40px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 40px;/*position where enlarged image should offset horizontally */
+}
+
+
+/*THUMBNAIL2 - thumbnail2 has border and border on hover*/
+
+.thumbnail2 {
+	position: relative;
+	float: left;
+	padding: 5px;
+	/*z-index: 0;*/
+}
+
+.thumbnail2:hover { 
+	background-color: #e9e9e2;
+	/*z-index: 50;*/
+	color: #335500;
+	text-decoration: none;
+}
+
+.thumbnail2 span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #e5e5e5;
+	padding: 5px;
+	/*left: -1000px;*/
+	border: 1px solid #666;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail2 span img { /*CSS for enlarged image*/
+	border-width: 0;
+/*padding: 2px;*/
+}
+
+.thumbnail2:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible; width: 208px;
+	top: 5px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 300px;/*position where enlarged image should offset horizontally */
+}
+
+a.thumbnail2 img {
+	 text-decoration:none;
+	z-index: 50;
+}
+
+/*if same attribute for all 4 states, then declare here in
+a.thumbnail2*/ 
+
+a.thumbnail2 img:link { border: 2px solid #e9e9e2; background: transparent; }
+
+a.thumbnail2 img:visited { border: 2px solid #e9e9e2; background : transparent; }
+
+a.thumbnail2 img:hover { border: 2px solid #f00; background : transparent; }
+
+a.thumbnail2 img:active { border: 2px solid #e9e9e2; background : transparent; }
+
+a.thumbnail2 img { border: 2px solid #e9e9e2; }
+
+/*end of hover popup links*/
+
+
+// SCREEN STYLE
+a.screen, a.screen:visited {
+	color:#c00; 
+	position:relative; 
+	z-index:1;
+}
+
+a.screen b {
+	position:absolute;
+	visibility:hidden; /* hide the image */
+	width:200px; /* give it a width */
+	height:0; /* no height to solve an Opera bug that makes it selectable when hidden */
+	border:1px solid #000; /* add a border */
+	left:0; /* position:the image */
+	top:-150px;
+}
+
+a.screen:hover {
+	text-decoration:none; 
+	border:0; /* needed for this to work in IE */ 
+	z-index:1000;
+}
+
+a.screen:hover b {
+	visibility:visible; /* make the image visible */
+	height:150px; /* now give it a height */
+	cursor:pointer; /* for IE */
+	z-index:500; 
+}
+
+a.screen:hover b img {
+	border:0; /* remove the link border */
+}
