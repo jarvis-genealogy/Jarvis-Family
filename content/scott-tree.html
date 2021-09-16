@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles\generalstyles.css">
+
+<title>SCOTT family tree</title>
+
+<script language="JavaScript">
+
+function popup(FILE, FEATURES) { 
+    CONTENT = "<HTML><HEAD><TITLE>Enlarged image</TITLE></HEAD>" +
+              "<BODY><CENTER><FORM><INPUT TYPE='BUTTON' VALUE='Close'" +
+               "onClick='window.close()'></FORM><P><IMG SRC='" + FILE + 
+               "' BORDER=0>" + "</CENTER>"+ "</BODY></HTML>";
+              pop = window.open("","",FEATURES);
+              pop.document.open();
+              pop.focus();
+              pop.document.write(CONTENT);
+              pop.document.close();
+
+} 
+
+
+function view (imagefile) { 
+   var winShell
+   var atext, btext, ctext;
+   var fso;
+   var quoteS = String.fromCharCode(34);
+
+   atext=self.location.href; // the current page path
+   fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+   btext = fso.GetParentFolderName(atext); // path without the page name
+   delete(fso);
+
+   atext = quoteS + "\\" + btext + exefile  + quoteS; // add the image relative path and put in quotes
+   atext = atext.replace( /\//g, '\\' ); // make sure the slashes are the right way round
+   ctext = "btext = " + btext + " atext = " + atext;
+   // alert(ctext);
+
+   atext = "rundll32.exe %SystemRoot%\system32\shimgvw.dll,ImageView_Fullscreen";
+   // add the image path
+   atext = atext + "\\" + imagefile;
+   alert(text);
+
+   // Run the given executable
+   winShell = new ActiveXObject("WScript.Shell");
+   // winShell.Run(atext);
+   delete(winShell);
+}
+
+</script>
+
+
+</head>
+
+<body>
+
+<br>
+
+<H1><CENTER>Scott family tree</CENTER></H1>
+<H3>The Scott family in Australia</H3>
+<br>
+
+<center>
+<a href="scott-tree/images/scott-family-back.pdf">
+<img  src="scott-tree/images/scott-family-2.jpg" height=480 ALT="Scott family group photo" border=1>
+<br>
+The Scott and Pearce families
+</a>
+</center>
+<br><br>
+
+<ol>
+  <!-- FamilySearch  https://www.familysearch.org/tree/pedigree/landscape/G4CG-32G 
+  
+  <!-- George SCOTT m Sara BRYANT -->
+  <li>
+  
+    <!-- Popups
+    <a class="screen" href="scott-tree/persons/George-Scott.html">
+	  <img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	  <b><img src="" height=320></b>
+    </a>
+    <a class="screen" href="javascript:void(0)"> 
+	  <img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	  <b><img src="" height=320></b>
+    </a>
+	-->
+	
+    <!-- Details -->
+    <a href="scott-tree/persons/George-Scott.html">George SCOTT b 1807 d 1876</a>
+    &nbsp;m (1828)&nbsp;
+    <a href="scott-tree/persons/Sarah-Bryant.html">Sarah BRYANT b 1809</a>
+	
+    <ol>  <!-- Children -->
+	
+	  <!-- Elizabeth 1838 - 1892 married Thomas HENRY -->
+	  <!-- Frederick 1840 - 1890 married Elizabeth BROWN -->
+	  <!-- Julia 1845 married Arthur Medd -->
+	  <!-- Charles Sidney 1848 - 1912 married Ellen GREEN -->
+	  <!-- Clara 1850 -->
+
+	  <!-- Elizabeth SCOTT b 1838 d 1892 m (1856) Thomas HENRY -->
+      <!-- <a class="screen" href="javascript:void(0)">
+	    <img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b>
+      </a>
+      <a class="screen" href="javascript:void(0)">
+	    <img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b>
+      </a>
+	   -->
+	   
+      <!-- Details -->
+      <li>
+	    <!--
+		<a href="javascript:void(0)">Elizabeth SCOTT b 1838 d 1892</a>
+        &nbsp;m (1856)&nbsp;
+        <a href="javascript:void(0)">Thomas HENRY</a>	
+		-->
+		Elizabeth SCOTT b 1838 d 1892&nbsp;m (1856)&nbsp;Thomas HENRY
+		
+		<ol> <!-- children -->
+		  <!--  -->
+		</ol>
+	  </li> <!-- end Elizabeth SCOTT -->
+	  
+	  <!-- George Frederick SCOTT b 1840 d 1890 (?1842) m (1863) Elizabeth BROWN -->
+      <!-- <a class="screen" href="javascript:void(0)"> <!-- Image
+	    <img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b> <!-- Popup
+      </a>
+      <a class="screen" href="javascript:void(0)"> <!-- Image
+	    <img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b> <!-- Popup
+      </a>
+	   -->
+      <!-- Details -->
+	  <li>
+        <!--
+	    <a href="javascript:void(0)">George Frederick SCOTT b 1842</a>
+        &nbsp;m (1863)&nbsp;
+        <a href="javascript:void(0)">Elizabeth BROWN</a>
+		-->
+		George Frederick SCOTT b 1842&nbsp;m (1863)&nbsp;Elizabeth BROWN
+	  
+		<ol> <!-- children -->
+		  <!--  -->
+		</ol>
+	  </li> <!-- end George Frederick SCOTT -->
+	
+	  <!-- Julia Scott b 1845 (1830 ?) m (1867) Arthur Medd -->
+	  <!--
+	  <a class="screen" href="javascript:void(0)">
+	    <img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <!-- <b><img src="" height=320></b>
+      </a>
+      <a class="screen" href="javascript:void(0)"> <!-- Image
+	    <img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b> <!-- Popup
+      </a>
+	   -->
+	  <!--
+	  <li><a href="javascript:void(0)">Julia SCOTT b 1845</a>
+		&nbsp;m (1867)&nbsp;
+        <a href="javascript:void(0)">Arthur MEDD</a>		  
+	  </li>
+	  -->
+	  <li>Julia SCOTT b 1845&nbsp;m (1867)&nbsp;Arthur MEDD</li>
+		  
+	  <!-- Charles Sidney Scott b 1848 d 1912 m (1872) Ellen Green b 1850 d 1917 -->
+      <!-- <a class="screen" href="javascript:void(0)"> <!-- Image
+	    <img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b> <!-- Popup
+      </a>
+      <a class="screen" href="javascript:void(0)"> <!-- Image
+	    <img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <b><img src="" height=320></b> <!-- Popup
+      </a>
+	   -->
+	   
+      <!-- Details -->
+      <li>
+	    <a href="scott-tree/persons/Charles-Sidney-Scott.html">Charles Sidney Scott b 1848 d 1912</a>
+        &nbsp;m (1872)&nbsp;Ellen GREEN  b 1850 d 1917
+        <!-- <a href="javascript:void(0)">Ellen GREEN  b 1850 d 1917</a> -->
+		<ol> <!-- children -->
+		  <!-- Charles Albert Edwin https://www.familysearch.org/tree/person/details/KGM1-Z67 -->
+		  <li>Charles Albert Edwin SCOTT b 1873 d 1949 m (1901) Elsie May Lugg b 1883</li>
+	      <!-- George Henry https://www.familysearch.org/tree/person/details/KZGJ-6JT -->
+		  <li>George Henry SCOTT b 1874 d 1935</li>
+	      <!-- William https://www.familysearch.org/tree/person/details/K829-2VF -->
+		  <li>William SCOTT b 1876 d 1930 m (1902) Edith Mary Uppil b 1877 d 1965 </li>
+		  <!-- Frederick James SCOTT b 1878 d 1947 m (1898) Lily May PEARCE b 1882 d 1919 -->
+		  <a class="screen" href="scott-tree/images/scott-family-back.pdf"> <!-- Image -->
+			<img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/blue_16x16.JPG" alt="[X]"> 
+			<b><img src="scott-tree/images/Frederick-James-Scott.jpg" height=320></b> <!-- Popup -->
+		  </a>
+		  <a class="screen" href="scott-tree/images/scott-family-back.pdf"> <!-- Image -->
+			<img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/blue_16x16.JPG" alt="[X]"> 
+			<b><img src="scott-tree/images/Lily-May-Pearce-(Scott).jpg" height=320></b> <!-- Popup -->
+		  </a>
+		  <!-- Details -->
+		  <li>
+			<a href="scott-tree/persons/Frederick-James-Scott.html">Frederick James SCOTT b 1878 d 1947</a>
+			&nbsp;m (1898)&nbsp;
+			<a href="scott-tree/persons/Lily-May-Pearce.html">Lily May PEARCE b 1882 d 1919</a>	
+			<!-- Children of Frederick James SCOTT and Lily May PEARCE -->
+		    <ol>
+				<!-- Alice May SCOTT m Eric Roy JARVIS -->
+				<a class="screen" href="scott-tree/images/alice-post-office-glenelg.jpg"> <!-- Image -->
+					<img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/blue_16x16.JPG" alt="[X]"> 
+					<b><img src="scott-tree/images/alice-post-office-glenelg.jpg" height=320></b> <!-- Popup -->
+				</a>
+				<a class="screen" href="scott-tree/images/eric-roy-post-office-glenelg.jpg"> <!-- Image -->
+					<img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/blue_16x16.JPG" alt="[X]"> 
+					<b><img src="scott-tree/images/eric-roy-post-office-glenelg.jpg" height=320></b> <!-- Popup -->
+				</a>
+				<!-- Details -->
+				<li>
+				<a href="scott-tree/persons/Alice-May-Scott.html">Alice May SCOTT</a>
+				&nbsp;m (1898)&nbsp;
+				<a href="scott-tree/persons/Eric-Roy-Jarvis.html">Eric Roy JARVIS</a>	
+				<!-- Children -->
+				<ol>
+				  <li>Keith Scott</li>
+				  <li>Shirley</li>
+				</ol>
+				<!-- Arnold Frederick Edwin Sydney -->
+				<li>Arnold Frederick Edwin Sydney</li>
+				<!-- Cyril Herman -->
+				<li>Cyril Herman</li>
+				<!-- Olive Myrtle m Norman Quintrell -->
+				<a class="screen" href="scott-tree/images/Image13.jpg"> <!-- Image -->
+					<img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/blue_16x16.JPG" alt="[X]"> 
+					<b><img src="scott-tree/images/Image13.jpg" height=320></b> <!-- Popup -->
+				</a>
+				<a class="screen" href="javascript:void(0)"> <!-- Image -->
+					<img STYLE="position:absolute; left:-18px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+					<b><img src="" height=320></b> <!-- Popup -->
+				</a>
+				<!-- Details -->
+				<li>
+				  <a href="scott-tree/persons/Olive-Myrtle-Scott.html">Olive Myrtle SCOTT</a>
+				  &nbsp;m (1928)&nbsp;
+				  <a href="scott-tree/persons/Norman-Oliver-Quintrell.html">Norman Oliver QUINTRELL</a>	
+				    <!-- Children -->
+					<ol>
+						<li>Robert Norman</li>
+						<li>Laurence Neil</li>
+					</ol>
+				</li>
+				
+			</ol> <!-- end children of Frederick James SCOTT and Lily May PEARCE -->
+			
+		  </li> <!-- end Frederick James SCOTT and Lily May PEARCE -->
+		  
+	      <!-- Sidney Ernest -->
+		  <li>Sidney Ernest b 1879 d 1880</li>
+	      <!-- Ernest Walter -->
+		  <li>Ernest Walter b 22 Jul 1880 d 30 Dec 1880</li>
+	      <!-- Alfred Edgar -->
+		  <li>Alfred Edgar b 1881 d 1949 m Minnie HAYES</li>
+	      <!-- Richard Percy -->
+		  <li>Richard Percy b 2 Mar 1883 d 25 Feb 1884</li>
+	      <!-- Emma Mabel -->
+		  <li>Emma Mabel b 1885 d 1984 m (1904) Alexander James BAILEY</li>
+	      <!-- Ellen May -->
+		  <li>Ellen May b 1886 d 1974 (daughter Elsie)</li>
+	      <!-- Herbert stanley -->
+		  <li>Herbert Stanley b 1888 m (1918) Vera PEARCE</li>
+	      <!-- Eva Myrtle -->
+		  <li>Eva Myrtle b 28 Jan 1890 d 27 Oct 1890</li>
+	      <!-- Clair Harold -->
+		  <li>Clair Harold b 1892</li>				
+		</ol>
+	  </li> <!-- end Charles Sidney SCOTT -->
+	  <br>
+
+	  <!-- KSJ notes : William, George, Edward (Ted), Harold, Sydney, "Chrissie", Emma, (?Frederick)
+			 
+	    <!-- FamilySearch lists 14 children -->
+		
+	    <!-- Charles Albert Edwin -->
+	    <!-- George Henry -->
+	    <!-- William -->
+		
+	    <!-- Frederick James SCOTT b 1878 d 1947 m (1898) Lilly May PEARCE b 1882 d 1919 -->
+		  <!-- Arnold Frederick Edwin Sydney -->
+		  <!-- Cyril Herman -->
+		  <!-- Olive Myrtle -->
+		  <!-- Alice May m Eric Roy Jarvis -->
+		  <!-- Lily Ethel m Norman Quintrell -->
+		  
+	    <!-- Sidney Ernest -->
+	    <!-- Ernest Walter -->
+	    <!-- Alfred Edgar -->
+	    <!-- Richard Percy -->
+	    <!-- Alexander James -->
+	    <!-- Emma Mabel -->
+	    <!-- Ellen May -->
+	    <!-- Charles Sydney -->
+	    <!-- Herberet stanley -->
+	    <!-- Eva Myrtle -->
+	    <!-- Clair Harold -->
+	  <!-- Clair Clement Scott 1849–1910 m (1871) Mary Bray Clemens 1852 – 1871 -->
+	  <!-- Arthur SCOTT -->
+	  <!-- Elizabeth Scott -->
+	  <!-- Julia Scott (Medd) -->
+	  
+	  <!-- Clara Scott b 1850 -->
+	  <!-- <a class="screen" href="javascript:void(0)">
+	    <img STYLE="position:absolute; left:-36px; width = 16; height=16;" src="scott-tree/images/square_16x16.JPG" alt="[X]"> 
+	    <!-- <b><img src="" height=320></b>
+      </a>	
+	   -->
+	  <!-- <li><a href="javascript:void(0)">Clara SCOTT b 1850</a></li>	-->
+	  <li>Clara SCOTT b 1850</li>
+	  
+	  	  
+	</ol> <!-- end George SCOTT children -->
+	
+  </li> <!-- end George SCOTT -->
+  
+  <br>
+    
+</ol> <!-- end George Scott list -->
+
+<br><br><br>
+
+</body>
+
+</html>
