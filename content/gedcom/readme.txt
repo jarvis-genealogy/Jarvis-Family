@@ -8,5 +8,5 @@ Importantly, the export includes image files. Genealogy sites often also provide
 
 The primary aim here is backup, but the file will also load immediately into "My Family Tree" to explore, rather than by way of the descendency charts. However, pages for individuals and links to further information are not included.
 
-Three are several GEDCOM formats. The one provided here is the latest GEDCOM 7.0 which provides for a compressed archive file "Jarvis_mft.gdz". For compatibility with older software, import to "My Family Tree" and export again as GEDCOM 5.5 including multimedia.
+Three are several GEDCOM formats and the one provided here is GEDCOM 5.5 for compatibility with older software. Download Jarvis_mft-5_5.zip, unzip and import Jarvis_mft.ged, to "My Family Tree".
 
