@@ -92,9 +92,7 @@ echo ^<body^> >> all-images.html
 
 echo ^<div style="padding:6px; font-family:Arial, Helvetica, sans-serif;" ^> >> all-images.html
 echo ^<h2^>Image Gallery^</h2^> >> all-images.html
-echo   ^<p^>Collected photos scanned from prints or slides. >> all-images.html
-echo   ^<br^>Some have been colourised using open source >> all-images.html
-echo   ^<a href="https://github.com/jantic/DeOldify" target="blank"^>DeOldify^</a^> >> all-images.html
+echo   ^<p^>Collected photos. >> all-images.html
 echo   ^</p^> >> all-images.html
 echo ^</div^> >> all-images.html
 
