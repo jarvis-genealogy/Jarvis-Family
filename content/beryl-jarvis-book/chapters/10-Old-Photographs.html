@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="..\..\styles\generalstyles.css">
+
+<title>The Jarvis Family in Australia</title>
+
+<script language="JavaScript">
+
+function popup(FILE, FEATURES) { 
+    CONTENT = "<HTML><HEAD><TITLE>Enlarged image</TITLE></HEAD>" +
+              "<BODY><CENTER><FORM><INPUT TYPE='BUTTON' VALUE='Close'" +
+               "onClick='window.close()'></FORM><P><IMG SRC='" + FILE + 
+               "' BORDER=0>" + "</CENTER>"+ "</BODY></HTML>";
+              pop = window.open("","",FEATURES);
+              pop.document.open();
+              pop.focus();
+              pop.document.write(CONTENT);
+              pop.document.close();
+
+} 
+
+
+function view (imagefile) { 
+   var winShell
+   var atext, btext, ctext;
+   var fso;
+   var quoteS = String.fromCharCode(34);
+
+   atext=self.location.href; // the current page path
+   fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+   btext = fso.GetParentFolderName(atext); // path without the page name
+   delete(fso);
+
+   atext = quoteS + "\\" + btext + exefile  + quoteS; // add the image relative path and put in quotes
+   atext = atext.replace( /\//g, '\\' ); // make sure the slashes are the right way round
+   ctext = "btext = " + btext + " atext = " + atext;
+   // alert(ctext);
+
+   atext = "rundll32.exe %SystemRoot%\system32\shimgvw.dll,ImageView_Fullscreen";
+   // add the image path
+   atext = atext + "\\" + imagefile;
+   alert(text);
+
+   // Run the given executable
+   winShell = new ActiveXObject("WScript.Shell");
+   // winShell.Run(atext);
+   delete(winShell);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<br>
+
+
+
+<h2 id="section20">OLD PHOTOGRAPHS from Joan Haskett</h2>
+
+<p>
+1. Mary Ann Barrett/Jarvis
+<br><br>
+Photographer Stump & Co. Gresham Gallery, King William Street, Adelaide.
+Studio operated between the years 1888 to 1889 only. No records kept.
+Information written on back of photograph. This is my Grandma Jarvis - nee
+Barrett. This photo shows an amazing likeness to several members of the
+Jarvis family. My cousins, some older than me - well mostly older as I am of
+a late marriage.. Written by Mary Ellen Jarvis/Howie. (page 27)
+<br><br>
+2. The Jarvis men
+<br><br>
+Photographer Hammer & Co. 184 Rundle Street, Adelaide. There were several
+studios operating under this name at different addresses in Adelaide between 1884
+and 1891. I do not have years of individual studios. It should be noted that Mary
+Ann, wife of Joshua could not write when they were married in 1855, however, she
+could have learnt over the intervening years, especially to write her own name.
+<br><br>
+On rear of photograph is the following information:
+<br><br>
+By special appointment to His Excellency, Sir W.C.F. Robinson K.C.M.G.
+Hammer & Co. Artists & photographers, 184 Rundle Street, Adelaide.
+Oil, water, colour and Mezzotint enlargements A Speciality.
+<br>
+Additional copies of this photograph always obtainable Signed for by  J Barrett.
+Photo consists of 4 men unknown. Suggested by Joan they could be Jarvis brothers.
+(Page 23)
+<br><br>
+3. Walter Jarvis.
+<br><br>
+Photographer Great Northern Photographic Co. Manager A. Francis.
+Studio's operation or position unknown
+<br><br>
+Written on back of Photo - Uncle Wally Jarvis. Actually he and my father were
+very much alike till my father lost weight. Signed Nell Howie 13/8/80.(Page 29)
+<br><br>
+4. Edith Jarvis/Combe
+<br><br>
+From the studio of T. or J. Duryea, Artist in Photography, No. 158a Rundle
+Street, Adelaide. Portraits enlarged and finished in oil. Water colour or crayon.
+Additional copies obtainable at reduced rates.(Page 28)
+<br><br>
+I have written to the Public Records Office in Adelaide to see if they hold any old records for the above photographers. No more information available.
+<br><br>
+<br><br>
+The photograph of the 4 men was taken before 1891. It should be noted the ages of the men would have been in 1885 when Joshua died:
+<br><br>
+	Edward born 1858 - 27 years old	Joshua born 1862 - 23 years old
+<br>
+	Arthur born 1864 - 21 years old	Walter born 1877 – 8 years old
+<br><br>
+Joshua was born c 1832 died 1877 aged 45 years. Could this be Joshua and 3 sons?
+Studio operated between the years 1888 to 1889 only. No record.
+</p>
+
+<p>
+<center>
+<a href="../images//picture-backs.jpg">
+<img  src="../images//picture-backs.jpg" width=50% ALT="picture-backs.jpg">
+</a>
+</center>
+</p>
+<br>
+<p>
+<center>
+<a href="../images//mary-ann-barrett_colourised.jpg">
+<img  src="../images//mary-ann-barrett_colourised.jpg" height=68% ALT="mary-ann-barrett_colourised.jpg">
+</a>
+<a href="../images//jarvis-men.jpg">
+<img  src="../images//jarvis-men.jpg" height=68% ALT="jarvis-men.jpg">
+</a>
+</center>
+</p>
+
+<p>
+<center>
+<a href="../images//walter-jarvis.jpg">
+<img  src="../images//walter-jarvis.jpg" height=71% ALT="walter-jarvis.jpg">
+</a>
+<a href="../images//edith-combe-jarvis.jpg">
+<img  src="../images//edith-combe-jarvis.jpg" height=71% ALT="edith-combe-jarvis.jpg">
+</a>
+</center>
+</p>
+<br>
+
+
+<br><br><br>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="..\..\styles\generalstyles.css">
+
+<title>The Jarvis Family in Australia</title>
+
+<script language="JavaScript">
+
+function popup(FILE, FEATURES) { 
+    CONTENT = "<HTML><HEAD><TITLE>Enlarged image</TITLE></HEAD>" +
+              "<BODY><CENTER><FORM><INPUT TYPE='BUTTON' VALUE='Close'" +
+               "onClick='window.close()'></FORM><P><IMG SRC='" + FILE + 
+               "' BORDER=0>" + "</CENTER>"+ "</BODY></HTML>";
+              pop = window.open("","",FEATURES);
+              pop.document.open();
+              pop.focus();
+              pop.document.write(CONTENT);
+              pop.document.close();
+
+} 
+
+
+function view (imagefile) { 
+   var winShell
+   var atext, btext, ctext;
+   var fso;
+   var quoteS = String.fromCharCode(34);
+
+   atext=self.location.href; // the current page path
+   fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+   btext = fso.GetParentFolderName(atext); // path without the page name
+   delete(fso);
+
+   atext = quoteS + "\\" + btext + exefile  + quoteS; // add the image relative path and put in quotes
+   atext = atext.replace( /\//g, '\\' ); // make sure the slashes are the right way round
+   ctext = "btext = " + btext + " atext = " + atext;
+   // alert(ctext);
+
+   atext = "rundll32.exe %SystemRoot%\system32\shimgvw.dll,ImageView_Fullscreen";
+   // add the image path
+   atext = atext + "\\" + imagefile;
+   alert(text);
+
+   // Run the given executable
+   winShell = new ActiveXObject("WScript.Shell");
+   // winShell.Run(atext);
+   delete(winShell);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<br>
+
+
+<h2 id="section8">THE WAY IT WAS</h2>
+
+<br>
+
+<p>
+Imagine arriving at <a href="https://en.wikipedia.org/wiki/Port_Adelaide">Port Adelaide</a> in the 1840's. a small port some 15 klms from the city of Adelaide, after the overcrowded and well developed towns and ports in England. The long journey from the port to Adelaide with a horse and dray, along with all their possessions and no home to go to. I wonder what went through their minds - was it joy and anticipation for a new and better life after a long and hazardous sea voyage, or were they frightened and apprehensive about the struggle ahead to establish themselves — perhaps a little of both.
+<br><br>
+Adelaide was a small settlement and labour was in high demand to help build a city and to establish nearby homes and farms. Land was available to buy or lease, if you had the money to do so. Most of the early homes of settlers were very simple, built of bark or slab and mud, many consisting of one or two rooms, usually the family kitchen was a separate lean-to room, with dirt floors. If they had an underground cellar to help keep food cool and away from dust and flies, they were regarded as "wealthy".
+<br><br>
+People grew vegetables, planted fruit trees, kept fowls and, if they were lucky, a cow. Any extra produce they had, the women would walk miles to the nearest market to exchange their eggs and butter for groceries. Fresh meat was a rarity and included in their diet were rabbits, kangaroos and wild game. Women made clothing for the whole family, sewing by hand, out of any material available. calico bags which had contained sugar or flour were used. Excess dripping was made into soap.
+<br><br>
+Kerosene was used extensively and the wooden packing cases which had contained the tins were stacked on top of one another and used for storage. The tins themselves, were re-used to make buckets and when flattened out were used to line shed walls and roofs. Water was always scarce: washing water was re-used to water the garden, baths were taken once a week, usually all using the same water with more hot added as needed. scrubbing wash boards were used with home—made soap for washing clothes, flat irons or hot coal irons for ironing.
+<br><br>
+Men worked hard using primitive methods and few tools. Dams were dug by hand with shovels, the dirt carried out in buckets; scrub was cleared with axes, bullocks or horses were used and had to be fed and watered every day. A journey of a few miles could take a long time, therefore men were often away overnight.
+<br><br>
+Doctors and hospitals were few and far between, child birth often resulted in the death of both mother and child leaving the family to fend for themselves. Home remedies were used and relied on to cure all sorts of ailments.
+<br><br>
+Things gradually improved, cool safes were introduced in the homes, ice chests and finally refrigerators. wood stoves graduated to gas and electric stoves, washing machines were used instead of wash troughs and a copper, instead of rows and rows of clothes lines the Hills hoist rotary clothes line came into use.
+<br><br>
+Houses improved over the years, lino and carpets on the floors, vacuum cleaners to help clean, heaters replaced the wood fires, and fans helped in the summer heat. l-land pushed lawn mowers were replaced by motor mowers, horse trams by electric trams and trains and today the motor car is the ultimate mode of transport.
+<br><br>
+On the following pages you will read of life of our pioneer ancestors and their descendants.
+<br>
+</p>
+
+<br><br><br>
+
+</body>
+
+</html>

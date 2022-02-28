@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="..\..\styles\generalstyles.css">
+
+<title>The Jarvis Family in Australia</title>
+
+<script language="JavaScript">
+
+function popup(FILE, FEATURES) { 
+    CONTENT = "<HTML><HEAD><TITLE>Enlarged image</TITLE></HEAD>" +
+              "<BODY><CENTER><FORM><INPUT TYPE='BUTTON' VALUE='Close'" +
+               "onClick='window.close()'></FORM><P><IMG SRC='" + FILE + 
+               "' BORDER=0>" + "</CENTER>"+ "</BODY></HTML>";
+              pop = window.open("","",FEATURES);
+              pop.document.open();
+              pop.focus();
+              pop.document.write(CONTENT);
+              pop.document.close();
+
+} 
+
+
+function view (imagefile) { 
+   var winShell
+   var atext, btext, ctext;
+   var fso;
+   var quoteS = String.fromCharCode(34);
+
+   atext=self.location.href; // the current page path
+   fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+   btext = fso.GetParentFolderName(atext); // path without the page name
+   delete(fso);
+
+   atext = quoteS + "\\" + btext + exefile  + quoteS; // add the image relative path and put in quotes
+   atext = atext.replace( /\//g, '\\' ); // make sure the slashes are the right way round
+   ctext = "btext = " + btext + " atext = " + atext;
+   // alert(ctext);
+
+   atext = "rundll32.exe %SystemRoot%\system32\shimgvw.dll,ImageView_Fullscreen";
+   // add the image path
+   atext = atext + "\\" + imagefile;
+   alert(text);
+
+   // Run the given executable
+   winShell = new ActiveXObject("WScript.Shell");
+   // winShell.Run(atext);
+   delete(winShell);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<br>
+
+<h2> INTRODUCTION</h2>
+
+<h3>Look at our past, look at the present and look to the future.</h3>
+
+<p>
+
+I am not endowed with any great talent as a writer, however, using my computer, I have put together the knowledge and background which I have gained, from many years of research about the Jarvis and James families.
+<br><br>
+Most importantly I want to record and share with our children Jennifer and Steven, our grandchildren, Daniel, Cameron, Tracey and Nuin Tara, the pioneer spirit of our
+ancestors, the hardships they endured and the contribution they made towards the
+settlement of South Australia. They left their homeland with very few possessions
+knowing they would have no hope of ever returning to or seeing their loved ones again, to take advantage of the promise of a better “life" in a land across the world.
+<br><br>
+
+I begin with the generation that came to Australia, where they came from, the families they left behind and the generations that have been born here.
+<br><br>
+
+Joshua Jarvis was born in Wales and came out as a young man on his own. I spent many years looking for the family in Norfolk as stated in South Australian records. This was incorrectly recorded. I finally found the family in Denbigh, Wales. His wife Mary Ann Barrett came from Norfolk. Once again after many years of looking in that county and nearby Suffolk, I have not yet found where she was born. As new and better records become available, not to mention the time to pursue them, I will one day find her birth place and siblings.
+<br><br>
+
+Abel James was born in Abergavenny, Wales. On our trip to England in 1979 we
+particularly noticed the town of Abergavenny, mainly because of a huge old building
+overlooking the town. On inquiring we were told it had been used in earlier years as the “looney bin” for the nearby counties and was currently used as a hospital. Little did we know then that our family ancestor Abel had been born in this town. He married Mary Ann Mills who arrived in S.A. with her parents when only two years old, from Redruth, Cornwall. They settled in Balaklava where they raised their family.
+<br><br>
+
+As I travelled backward through the years, I have developed a greater understanding and discovered physical appearances and traits of character, which tell us why we are as we are. Where possible I have tried to give the cause of death because the genetic factors are so important to our present day health.
+<br><br>
+
+It has been a personal delight to me to renew contact with members of our extended
+family. Life goes on and we tend to drift apart but this project has served to draw us
+together once again for which I am grateful.
+<br><br>
+
+Beryl Jarvis
+<br><br>
+September, 2000
+</p>
+
+<br><br><br>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="..\..\styles\generalstyles.css">
+
+<title>The Jarvis Family in Australia</title>
+
+<script language="JavaScript">
+
+function popup(FILE, FEATURES) { 
+    CONTENT = "<HTML><HEAD><TITLE>Enlarged image</TITLE></HEAD>" +
+              "<BODY><CENTER><FORM><INPUT TYPE='BUTTON' VALUE='Close'" +
+               "onClick='window.close()'></FORM><P><IMG SRC='" + FILE + 
+               "' BORDER=0>" + "</CENTER>"+ "</BODY></HTML>";
+              pop = window.open("","",FEATURES);
+              pop.document.open();
+              pop.focus();
+              pop.document.write(CONTENT);
+              pop.document.close();
+
+} 
+
+
+function view (imagefile) { 
+   var winShell
+   var atext, btext, ctext;
+   var fso;
+   var quoteS = String.fromCharCode(34);
+
+   atext=self.location.href; // the current page path
+   fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+   btext = fso.GetParentFolderName(atext); // path without the page name
+   delete(fso);
+
+   atext = quoteS + "\\" + btext + exefile  + quoteS; // add the image relative path and put in quotes
+   atext = atext.replace( /\//g, '\\' ); // make sure the slashes are the right way round
+   ctext = "btext = " + btext + " atext = " + atext;
+   // alert(ctext);
+
+   atext = "rundll32.exe %SystemRoot%\system32\shimgvw.dll,ImageView_Fullscreen";
+   // add the image path
+   atext = atext + "\\" + imagefile;
+   alert(text);
+
+   // Run the given executable
+   winShell = new ActiveXObject("WScript.Shell");
+   // winShell.Run(atext);
+   delete(winShell);
+}
+
+</script>
+
+</head>
+
+<body>
+
+
+<br>
+
+<h2 id="section3">COAT OF ARMS</h2>
+
+<p>
+<center>
+<a href="../images/coat-of-arms.jpg">
+<img  src="../images/coat-of-arms.jpg" width=50% ALT="coat-of-arms.jpg">
+</a>
+</center>
+</p>
+
+<p>
+THE JARVIS COAT OF ARMS HERBY ILLUSTRATED IS OFFICIALLY DOCUMENTED IN BURKE'S GENERAL ARMORY. THE ORIGINAL DESCRIPTION OF THE ARMS (SHIELD) IS AS FOLLOWS:
+<br><br>
+“AZ. SIX OSTRICH FEATHERS AR. THREE, TWO AND ONE.”
+<br><br>
+WHEN TRANSLATED THE BLAZON ALSO DESCIBES THE ORIGINAL COLORS OF THE JARVIS ARMS AS:
+<br><br>
+“BLUE; SIX SILVER OSTRICH FEATHERS PLACED THREE OVER TWO OVER ONE.”
+<br><br>
+ABOVE THE SHIELD AND HELMET IS THE CREST WHICH IS DESCRIBED AS:
+<br><br>
+“A RED RAMPANT LION.”
+<br><br>
+</p>
+
+
+<h2 id="section4">THE JARVIS NAME</h2>
+
+<h3>How the old and distinguished JARVIS family got its name and what the
+<br>
+JARVIS NAME MEANS</h3>
+
+<p>
+The surname of Jarvis appears to be patronymical in origin. Research indicates that it can be associated with the English meaning “descendant of Gervais or Gervase - spear or servant”.
+<br><br>
+Although this interpretation is the result of onomastic research, you may find other
+meanings for the Jarvis family name. Many names have more than one origin, e.g. the
+English surname of “Bell” may designate someone who lived or worked at the sign of the bell, or it may refer to a bellringer or bellmaker.
+<br><br>
+Extensive research on the Jarvis name may prove difficult to find the exact spelling which is used today. It may very well have been spelt differently hundreds of years ago, or it may have been changed somewhere along the line. The more research you do, the more likely you will be to find different spellings. Language changes, carelessness and a high degree of illiteracy compounded the number of ways which might have been used. Sometimes the man himself did not know how to spell his own name correctly. Often the person recording the name spelt it the way it sounded to him.
+<br><br>
+Spelling variations of the family name - knowing that different spellings of the original
+surname are a common occurrence, it is not surprising that the probable variations of the Jarvis surname to be Jarvis, Jervis, Jervios, Jervoise, Gervase and Gervis.
+<br><br>
+Although bearers of the old distinguished Jarvis name comprise a small percentage of
+individuals living in the world today, there may be a large number of your direct relations who are using one of the Jarvis name variations.
+<br><br>
+<i>
+As I write of days long ago in a different life, in a different world, to say that the past
+doesn’t matter, it’s what happens now that matters, this is what is important. That is right too, because the past only lives in our memories and cannot be changed. It is the present that we need to take into account, the day, the minute, the hour. That’s what we live in the present, however, what has happened before us touches our lives, it’s our inheritance, it’s in our genes, it makes us what we are.
+</i>
+</p>
+
+<br>
+
+<br><br><br>
+
+</body>
+
+</html>
