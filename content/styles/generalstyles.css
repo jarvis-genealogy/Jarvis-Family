@@ -10,14 +10,14 @@ a:visited {color:purple; }
 a:active {color:red; }
 a:hover {color:red; text-decoration:none; }
 
-H1 {color:#CC0000; background: white; font:bold 160% Arial, Helvetica, sans-serif;  text-align:right; }
+H1 {color:#CC0000; background: white; font:bold 160% Arial, Helvetica, sans-serif; text-align:center; }
 H1.center {text-align:center; }
 H1.comic {color:#CC0000;  background: white; font: bold 145% COMIC SANS MS; text-align:center; }
 H1.bold {color:#CC0000;  background: white; font: bold 200% Arial, Helvetica, sans-serif;  text-align:center; }
 H1.topten {color:#008000; font-size:150%;  font-family:Arial, Helvetica, sans-serif; text-align:left;  }
 
-
-H2 {color:#CC0000;  background: white; font: bold 145% Arial, Helvetica, sans-serif; text-align:center; margin-left:10% }
+H2 {color:#CC0000;  background: white; font: bold 145% Arial, Helvetica, sans-serif; text-align:center; }
+H2.center {text-align:center; }
 h2.contents {color:#990000; font-size:145%;  font-family:Arial, Helvetica, sans-serif; text-align:center;  }
 H2.left {text-align:left; }
 
@@ -33,6 +33,12 @@ h4.left {color:#990000; font-size:120%; line-height:130%; font-family:Arial, Hel
 h5 {color:#008000; font-size:110%; line-height:120%; font-family:Arial, Helvetica, sans-serif; text-align:left;  }
 h5.center {color:#008000; font-size:120%;  font-family:Arial, Helvetica, sans-serif; text-align:center;  }
 caption {color:#990000;  font-size:130%; font-family: Arial, Helvetica, sans-serif;  font-weight:bold; text-align:center; }
+
+h6 {color:#990000; font-size:100%; line-height:100%; font-family:Arial, Helvetica, sans-serif; text-align:center; }
+H6.center {text-align:center; }
+H6.comic  {color:#CC0000; background: white; font: bold 100% COMIC SANS MS; text-align:center; }
+H6.bold   {color:#CC0000; background: white; font: bold 100% Arial, Helvetica, sans-serif;  text-align:center; }
+H6.topten {color:#008000; font-size:100%; font-family:Arial, Helvetica, sans-serif; text-align:left;  }
 
 TD {color:#000000;  background: white; font-family:Arial, Helvetica, sans-serif;}
 TD.norm {line-height:140%; }
